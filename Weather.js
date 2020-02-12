@@ -57,7 +57,7 @@ function bgImg(description) {
   try {
     if (description === rain) return rainybg;
     else if (description === snow) return snowybg;
-    else if (description === clear) return clearbg;
+    else if (description === sunny) return clearbg;
     else if (description === thunderstorm) return thunderstormbg;
     else if (description === drizzle) return drizzlebg;
     else if (description === fog) return mistbg;
